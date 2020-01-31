@@ -1,0 +1,212 @@
+body {
+  background: rgb(255, 255, 255);
+}
+
+.logobar
+{
+  margin-left: 25%;
+
+}
+
+.logo_wrapper {
+  display: inline-block;
+  position: relative;
+  width: 327px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+#logo, #logo2, #logo3 {
+  display: block;
+  position: relative;
+  height: 77px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+span.text {
+  color: #291515;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 25px;
+  position: absolute;
+  top: 39px;
+  left: 137px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+span.icon-text {
+  color: #fefefe;
+  font-size: 20px;
+  font-size: 400;
+  font-style: normal;
+  line-height: 28px;
+  position: absolute;
+  top: 35px;
+  left: 60px;
+  width: 55px;
+  text-align: center;
+  z-index: 10;
+  opacity: 1;
+  cursor: pointer;
+}
+
+span.icon {
+  color: #fefefe;
+  font-size: 21px;
+  position: absolute;
+  top: 40px;
+  left: 59px;
+  width: 55px;
+  text-align: center;
+  z-index: 10;
+  transform: translateZ(0px);
+  will-change: transform, opacity;
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#logo .icon-text, #logo2 .icon-text,
+#logo .icon, #logo2 .icon {
+    transition: opacity 0.3s ease-in-out;
+} /*transition collides with timing of greensock */
+
+.icon-home {
+  position: relative;
+  display: inline-block;
+  line-height: 1;
+}
+
+span.square {
+  display: block;
+  width: 55px;
+  height: 55px;
+  margin-top: 11px;
+  transform: rotate(45deg);
+  background: #df6865;
+  background: linear-gradient(135deg, #df6865 0%, #d7433f 100%);
+  position: absolute;
+  will-change: transform, opacity;
+}
+
+span.square:nth-child(4) {
+  left: -13px;
+  opacity: 0.01;
+}
+
+span.square:nth-child(5) {
+  left: 11px;
+  opacity: 0.3;
+}
+
+span.square:nth-child(6) {
+  left: 35px;
+  opacity: 0.6;
+}
+
+span.square:nth-child(7) {
+  left: 59px;
+  opacity: 0.9;
+}
+
+/* Animation with only CSS */
+#logo2:hover span.icon {opacity: 1;}
+#logo2:hover span.icon-text {opacity: 0;}
+
+#logo2:hover span.square:nth-child(4) {
+  animation: cssAnimation-a 1s ease infinite backwards;
+}
+
+#logo2:hover span.square:nth-child(5) {
+  animation: cssAnimation-b 1s ease infinite backwards;
+}
+
+#logo2:hover span.square:nth-child(6) {
+  animation: cssAnimation-c 1s ease infinite backwards;
+}
+
+#logo2:hover span.square:nth-child(7) {
+  animation: cssAnimation-d 1s ease infinite backwards;
+}
+
+#logo:hover span.icon {opacity: 1;}
+#logo:hover span.icon-text {opacity: 0;}
+
+#logo:hover span.square:nth-child(4) {
+  animation: cssAnimation-a 1s ease infinite backwards;
+}
+
+#logo:hover span.square:nth-child(5) {
+  animation: cssAnimation-b 1s ease infinite backwards;
+}
+
+#logo:hover span.square:nth-child(6) {
+  animation: cssAnimation-c 1s ease infinite backwards;
+}
+
+#logo:hover span.square:nth-child(7) {
+  animation: cssAnimation-d 1s ease infinite backwards;
+}
+
+#logo3:hover span.icon {opacity: 1;}
+#logo3:hover span.icon-text {opacity: 0;}
+
+#logo3:hover span.square:nth-child(4) {
+  animation: cssAnimation-a 1s ease infinite backwards;
+}
+
+#logo3:hover span.square:nth-child(5) {
+  animation: cssAnimation-b 1s ease infinite backwards;
+}
+
+#logo3:hover span.square:nth-child(6) {
+  animation: cssAnimation-c 1s ease infinite backwards;
+}
+
+#logo3:hover span.square:nth-child(7) {
+  animation: cssAnimation-d 1s ease infinite backwards;
+}
+@keyframes cssAnimation-a {
+  from {
+    opacity: 0.01;
+  }
+  
+  to {
+    transform: rotate(45deg) translate(17px, -17px);
+    opacity: 0.3;
+  }
+}
+
+@keyframes cssAnimation-b {
+  from {
+    opacity: 0.3;
+  }
+  
+  to {
+    transform: rotate(45deg) translate(17px, -17px);
+    opacity: 0.6;
+  }
+}
+
+@keyframes cssAnimation-c {
+  from {
+    opacity: 0.6;
+  }
+  
+  to {
+    transform: rotate(45deg) translate(17px, -17px);
+    opacity: 0.9;
+  }
+}
+
+@keyframes cssAnimation-d {
+  from {
+    opacity: 0.9;
+  }
+  
+  to {
+    transform: rotate(45deg) translate(17px, -17px);
+    opacity: 0;
+  }
+}

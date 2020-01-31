@@ -1,0 +1,26 @@
+$fa-font-path:  '~font-awesome/fonts';
+@import url('https://fonts.googleapis.com/css?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import
+    '~font-awesome/scss/font-awesome';
+
+
+@import
+    'abstracts/vars';
+
+
+@import  
+    "~reset-css/sass/reset";
+
+
+@import
+    'layouts/header',
+    'layouts/main',
+    'layouts/selection',
+    'layouts/footer';
+
+@import
+    'components/search',
+    'components/logobar';
+    
