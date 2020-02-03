@@ -2,6 +2,8 @@ $fa-font-path:  '~font-awesome/fonts';
 @import url('https://fonts.googleapis.com/css?family=Parisienne&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
 @import
     '~font-awesome/scss/font-awesome';
 
@@ -11,7 +13,8 @@ $fa-font-path:  '~font-awesome/fonts';
 
 
 @import  
-    "~reset-css/sass/reset";
+    "~reset-css/sass/reset",
+    "~bootstrap/scss/bootstrap";
 
 
 @import
@@ -21,6 +24,7 @@ $fa-font-path:  '~font-awesome/fonts';
     'layouts/footer';
 
 @import
-    'components/search',
-    'components/logobar';
+    'components/logobar',
+    'components/all-rents',
+    'components/all-sales';
     

@@ -1,0 +1,70 @@
+.barsal
+{
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+	box-shadow: 8px 8px 8px rgb(31, 30, 30); 
+	
+
+}
+
+.psal
+{
+    
+    margin: 0.5em 0.5em;
+    color: rgb(109, 107, 107);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+
+.product-rack
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0em auto;
+    justify-content: center;
+    
+
+}
+
+
+.div-rack
+{
+    
+    background-color: lavenderblush;
+    box-shadow: 8px 8px 8px rgb(77, 74, 74);
+    height: 20em;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    overflow: hidden;
+    
+}
+
+.div-rack:hover
+{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.infos-product
+{
+    margin-top: 1em;
+    color: black;
+    text-align: center;
+    width: 15em;
+    
+    
+    
+    
+
+    .product
+    {
+        font-weight: bold;
+
+    }
+    
+}
