@@ -1,0 +1,98 @@
+.bg-header-product
+{
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+	box-shadow: 8px 8px 8px rgb(31, 30, 30); 
+}
+
+.date
+{
+    margin: 0;
+    font-size: 12px;
+}
+.main-single-product
+{
+    background-color:whitesmoke;
+}
+
+h4
+{
+    font-family: 'Bebas Neue', cursive;
+    padding:2em 0;
+
+}
+.single-infos
+{
+    display: flex;
+}
+.ul-product
+{
+    width: 30%;
+    margin: 4em;
+
+}
+.li-product
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-product
+{
+    margin: 4em;
+    width: 50%;
+    height: 700px;
+    overflow: hidden;
+}
+.single-img-product
+{
+    width: 800px;
+    height: 600px;
+    box-shadow: 8px 8px 8px grey;
+}
+.logo-infos
+{
+    width: 100%;
+    height: 5em;
+
+}
+
+h5
+{
+    font-family: 'Bebas Neue', cursive;  
+    text-align: center;
+}
+
+.img-swip
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 2em;
+    
+
+}
+
+
+.img-swipebox
+{
+    width: 300px;
+    height: 200px;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    margin: 0 1em;
+    z-index: 3;
+    box-shadow: 8px 8px 8px grey;
+    
+}
+
+
+.img-swipebox:hover
+{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+

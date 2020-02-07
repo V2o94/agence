@@ -2,13 +2,13 @@ footer
 {
     background-color: #464240;
     height: 10em;
+    width: 100%;
    
 }
 
 .footer-infos
 {
-   display: flex;
+    display: flex;
     justify-content: space-evenly;
-    margin-top: 3em;  
-    padding: 3em;
+    margin: 0;
 }

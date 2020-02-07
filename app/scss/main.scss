@@ -19,12 +19,13 @@ $fa-font-path:  '~font-awesome/fonts';
 
 @import
     'layouts/header',
-    'layouts/main',
     'layouts/selection',
     'layouts/footer';
 
 @import
     'components/logobar',
     'components/all-rents',
-    'components/all-sales';
+    'components/all-sales',
+    'components/single-product';
+
     
