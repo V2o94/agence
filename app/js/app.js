@@ -4,7 +4,6 @@ var app = {
 
 
 
-
 //----carousel----//  
 
 jQuery(document).ready(function($) {

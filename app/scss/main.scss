@@ -4,6 +4,8 @@ $fa-font-path:  '~font-awesome/fonts';
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Squada+One&display=swap');
+
 @import
     '~font-awesome/scss/font-awesome';
 
@@ -26,6 +28,7 @@ $fa-font-path:  '~font-awesome/fonts';
     'components/logobar',
     'components/all-rents',
     'components/all-sales',
-    'components/single-product';
+    'components/single-product',
+    'components/contact';
 
     

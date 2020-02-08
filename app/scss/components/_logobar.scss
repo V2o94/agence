@@ -1,11 +1,19 @@
-
+.logobar
+{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
 
 
 .logo_wrapper {
   display: inline-block;
   position: relative;
   margin-top: 30px;
+  left: -5em;
+  
 
+  
 }
 
 #logo, #logo2, #logo3 {
@@ -15,9 +23,12 @@
   text-decoration: none;
   cursor: pointer;
   display: flex;
+  outline-style: none;
+
 }
 
 span.text {
+  width: 8em;
   color: #291515;
   font-weight: bold;
   font-style: normal;

@@ -72,19 +72,21 @@
     
 }
 
-.link-rent
+.linkrent
 
     {
         font-family: 'Saira Extra Condensed', sans-serif;
         position: relative;
         padding: 1rem;
         font-size: 20px;
+        outline-style:none;
 
         
         
         
     }
-.link-rent:hover
+.linkrent:hover
 {
     text-decoration: none;
+   
 }

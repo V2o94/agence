@@ -12,21 +12,24 @@
         <h1>Agence Terre D'essonne </h1>
         <ul class="navbar">
           <li>
-            <a href="#" style="text-decoration: none;">Accueil</a>
+            <a class="linknav" href="index.html" style="text-decoration: none;">Accueil</a>
           </li>
           <li>
-            <a href="#"style="text-decoration: none;">Locations</a>
+            <a class="linknav" href="all-rents.html"style="text-decoration: none;">Locations</a>
           </li>
           <li>
-            <a href="all-sales.html"style="text-decoration: none;">Ventes</a>
+            <a class="linknav" href="all-sales.html"style="text-decoration: none;">Ventes</a>
           </li>
           <li>
-            <a href="#"style="text-decoration: none;">Nos Dossiers</a>
+            <a class="linknav" href="#"style="text-decoration: none;">Nos Dossiers</a>
           </li>
           <li>
-            <a href="#"style="text-decoration: none;">Nous Contacter</a>
+            <a class="linknav" href="contact.html"style="text-decoration: none;">Nous Contacter</a>
           </li>
         </ul>
+        <div class="phone">
+          <i class="fa fa-phone" aria-hidden="true" > 06.04.03.02.01</i>
+        </div>
     </div>
     <div class="divimg" style="background-image: url(images/house.jpg)">
      </div>
@@ -34,7 +37,7 @@
   <main>
     <section class="logobar">
       <div class="logo_wrapper">
-        <a id ="logo" href="#" class="">
+        <a id ="logo" class="js-scrollTo" href="#coupsdecoeur" class="">
           <span class="text"><strong>Nos coups de Coeur </strong></span>
           <span class="icon-text">E</span>
           <span class="icon">
@@ -47,7 +50,7 @@
         </a>
       </div>
       <div class="logo_wrapper">
-        <a id ="logo2" href="#">
+        <a id ="logo2" class="js-scrollTo" href="#">
           <span class="text"><strong>Gestion</strong></span>
           <span class="icon-text">G</span>
           <span class="icon">
@@ -77,15 +80,15 @@
     <div class="title-section">
       <h3>Notre selection de Biens</h3>
     </div>
-    <div class="slider">
-      <a class="effect"href=""><img  src="images/house1.jpg" /></a>
-      <a class="effect"href=""><img  src="images/house2.jpg" /></a>
-      <a class="effect"href=""><img  src="images/house3.jpg" /></a>
-      <a class="effect"href=""><img  src="images/house4.jpg" /></a>
-      <a class="effect"href=""><img  src="images/house5.jpg" /></a>
-      <a class="effect" href=""><img src="images/house6.jpg" /></a>
-      <a class="effect"href=""><img  src="images/house5.jpg" /></a>
-      <a class="effect" href=""><img src="images/house6.jpg" /></a>
+    <div id="coupsdecoeur" class="slider">
+      <a class="effect"href="single-product.html"><img  src="images/house1.jpg" /></a>
+      <a class="effect"href="single-product.html"><img  src="images/house2.jpg" /></a>
+      <a class="effect"href="single-product.html"><img  src="images/house3.jpg" /></a>
+      <a class="effect"href="single-product.html"><img  src="images/house4.jpg" /></a>
+      <a class="effect"href="single-product.html"><img  src="images/house5.jpg" /></a>
+      <a class="effect" href="single-product.html"><img src="images/house6.jpg" /></a>
+      <a class="effect"href="single-product.html"><img  src="images/house5.jpg" /></a>
+      <a class="effect" href="single-product.html"><img src="images/house6.jpg" /></a>
       
 	</div>
   </section>
@@ -93,17 +96,19 @@
   <footer>
     <div class="footer-infos">
       <ul>
-        <a href=""><li>Mentions Légales</li></a>
+        <a class="linknav" href=""><li>Mentions Légales</li></a>
       </ul>
       <ul>
-        <a href=""><li>Nous Contacter</li></a>
-        <a href=""><li><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+        <a class="linknav" href="contact.html"><li>Nous Contacter</li></a>
+        <a class="linknav" href=""><li><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
         </li></a>
-        <a href=""><li><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></li></a>
+        <a class="linknav" href=""><li><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></li></a>
       </ul>
     </div>
   </footer>
   <script src="js/app.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="lib/jquery-2.0.3.js"></script>
+<script src="src/js/jquery.swipebox.js"></script>
 </body>
 </html>
